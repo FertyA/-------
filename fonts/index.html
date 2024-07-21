@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Визитка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="profile.jpg" alt="Иван Иванов" class="profile-img">
+            <div class="header-text">
+                <h1>Гаврилов Андрей</h1>
+                <p>Студент ДВФУ</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="#comments">Комментарии</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="content">
+        <h2>Обо мне</h2>
+        <p>Привет! Меня зовут Гаврилов Андрей, я студент, недавно закончивший первый курс по специальности "прикладной математики и информатики", в Дальневосточном Федеральном Университете. Я увлечен веб-разработкой и стремлюсь углубить свои знания и навыки в этой области. В свободное время занимаюсь изучением новых технологий и созданием собственных проектов. Моя цель - стать профессиональным веб-разработчиком и создавать удобные и современные веб-приложения.</p>
+    </section>
+    <section id="education" class="content">
+        <h2>Образование</h2>
+        <div class="education">
+            <h3>Бакалавр прикладной математики и информатики, Дальневосточный Федеральный Университет</h3>
+            <p>Сентябрь 2023 - Настоящее время</p>
+            <p>Закончил первый курс</p>
+        </div>
+    </section>
+    <section id="skills" class="content">
+        <h2>Навыки програмирования</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>С++</li>
+            <li>Git</li>
+        </ul>
+    </section>
+    <section id="contact" class="content">
+        <h2>Контакты</h2>
+        <p>Почта: <a href="mailto:gavrilov.am@dvfu.ru">gavrilov.am@dvfu.ru</a></p>
+        <p>Теллеграм: <a href="https://t.me/Ferty591">Ferty591</a></p>
+        <p>Git: <a href="https://github.com/FertyA">FertyA</a></p>
+        <p>Телефон: +7 (914) 972-89-72</p>
+    </section>
+    <section id="comments" class="comments">
+        <h2>Комментарии</h2>
+        <div id="comments-container"></div>
+        <form id="comment-form">
+            <input type="text" id="comment-input" placeholder="Оставьте комментарий" required>
+            <button type="submit">Добавить</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Гаврилов Андрей. Все права защищены.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
